@@ -13,6 +13,6 @@ class PerroSeeder extends Seeder
      */
     public function run(): void
     {
-        Perro::factory(100)->create();
+        Perro::factory(50)->create();
     }
 }
